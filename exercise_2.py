@@ -139,6 +139,3 @@ def queen_moves_num(n: int, r_q: int, c_q: int, obstacles: List[Tuple[int, int]]
         fields += min(queen_upper_border_distance, queen_right_border_distance) \
                   + min(queen_lower_border_distance, queen_left_border_distance)
     return fields
-
-
-print(queen_moves_num(8, 2, 6, [(3, 5), (4,7), (6,2), (4,1), (2,2), (3,4), (6,6), (6,4), (7,4)]))
