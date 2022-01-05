@@ -1,7 +1,8 @@
+import numpy
 import numpy as np
 
 
-def chess_board_maker(n: int) -> np.array:
+def chess_board_maker(n: int) -> numpy.ndarray:
     """
     Make a chessboard-like matrix.
 
