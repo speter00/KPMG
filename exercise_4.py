@@ -1,8 +1,7 @@
-import numpy
 import numpy as np
 
 
-def norm_by_row(matrix: numpy.ndarray) -> numpy.ndarray:
+def norm_by_row(matrix: np.ndarray) -> np.ndarray:
     """
     Calculates the Euclidean norm for each row in the input matrix.
 
